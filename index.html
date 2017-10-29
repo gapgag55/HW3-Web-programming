@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="css/vendor/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="search()">
+    <!-- Keyword HERE -->
+    <header>
+      <div class="container">
+          <input id="query" placeholder="Search Music" autofocus type="text" onkeypress="search()"/>
+      </div>
+    </header>
+    <!-- End Keyword HERE -->
+
+    <section >
+      <div class="columns head container">
+        <div class="column is-half">Title</div>
+        <div class="column left">Artist</div>
+        <div class="column">Published At</div>
+      </div>
+
+      <!-- AJAX value HERE -->
+      <div id="body" class="body container">
+      </div>
+      <!-- End AJAX value HERE -->
+    </section>
+
+    <!-- Loadmore HERE -->
+    <footer>
+      <button onclick="loadmore()">loadmore</button>
+    </footer>
+    <!-- Loadmore HERE -->
+
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

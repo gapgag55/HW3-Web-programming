@@ -1,0 +1,108 @@
+/*
+ * DEFAULT SETTINGS CSS
+ */
+body {
+  background-color: #131722;
+  min-height: 100vh;
+  padding: 40px;
+  color: #FFF;
+  padding-bottom: 80px;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.float-center {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+svg path,
+svg rect{
+  fill: #FF6700;
+}
+
+#query {
+  font-size: 60px;
+  padding: 20px 50px;
+  padding-left: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #FFF;
+  border: 0;  
+}
+
+::-webkit-input-placeholder {
+  color: #4E5063;
+}
+
+.head {
+  border-bottom: 1px solid #494C5D;
+}
+
+.body {
+  min-height: 50vh;
+}
+
+.head > div,
+.body > a {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.body > a {
+  color: #FFF;
+}
+
+.head > div:first-child {
+  text-align: left;
+}
+
+.body > .columns {
+  position: relative;
+  padding-bottom: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.body {
+  padding: 20px 0;
+}
+
+.body .bg {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -50px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer button {
+  background: #000;
+  color: #FFF;
+  border: 0;
+  outline: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
